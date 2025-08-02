@@ -29,7 +29,7 @@ function Main() {
       {/* Top Navigation */}
       <div className="nav">
         <p>Gemni</p>
-        <img src={assets.user_icon} alt="User Icon" />
+        <img src={assets.ds_icon} alt="User Icon" />
       </div>
 
       {/* Main Content */}
@@ -77,7 +77,7 @@ function Main() {
             // Show result after prompt sent
             <div className="result">
               <div className="result-title">
-                <img src={assets.user_icon} alt="User Icon" />
+                <img src={assets.ds_icon} alt="User Icon" />
                 <p>{recentprompt}</p> {/* ✅ Corrected: now shows the prompt value */}
               </div>
 
