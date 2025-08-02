@@ -8,6 +8,7 @@ const ai = new GoogleGenAI({ apiKey: "AIzaSyBpCsu2B-FYhAfdzJHHJ3OGkdqbmJGcT9I" }
     contents: data,
   });
   console.log(response.text);
+  return response.text
 }
 
 export default maincall;
